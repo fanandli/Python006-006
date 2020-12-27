@@ -23,7 +23,7 @@ if __name__ == "__main__":
     log_put()
     
  
-# 改进：使用pathlib（没验证正确与否，虚拟环境崩了...）
+# 改进：使用pathlib（没验证正确与否，虚拟环境崩了...windows环境下'PureWindowsPath' object has no attribute 'exists'）
 # import time,logging
 # from pathlib import Path, PurePath
 
