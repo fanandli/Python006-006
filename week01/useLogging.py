@@ -1,5 +1,7 @@
 import logging
 
+#笔记
+
 #默认是追加写入模式，且此配置只有效一次，所以要写在前面
 logging.basicConfig(filename='test.log',
                     level=logging.DEBUG,
