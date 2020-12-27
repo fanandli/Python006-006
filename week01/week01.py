@@ -21,10 +21,3 @@ def log_put():
 
 if __name__ == "__main__":
     log_put()
-
-
-
-
-
-
-
