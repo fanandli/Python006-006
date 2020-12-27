@@ -1,5 +1,8 @@
 from datetime import *
 import time
+
+#笔记
+
 #===use time
 print(time.time())#基本不用
 
@@ -14,6 +17,3 @@ print(time.strptime("2020-12-27 11:48:39","%Y-%m-%d %X"))
 #===use datetime
 print(datetime.today(),datetime.now())
 print(datetime.today()+timedelta(days=1))#对时间加减等操作
-
-
-
